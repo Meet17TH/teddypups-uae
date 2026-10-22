@@ -1,0 +1,202 @@
+{
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "size": 127253,
+      "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+      "success": true
+    },
+    {
+      "route": "/puppies",
+      "status": 200,
+      "size": 70578,
+      "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+      "success": true
+    },
+    {
+      "route": "/how-it-works",
+      "status": 200,
+      "size": 40794,
+      "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+      "success": true
+    },
+    {
+      "route": "/happy-families",
+      "status": 200,
+      "size": 42634,
+      "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+      "success": true
+    },
+    {
+      "route": "/faq",
+      "status": 200,
+      "size": 37506,
+      "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+      "success": true
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "size": 48974,
+      "title": "Visit &amp; contact | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/gone-home",
+      "status": 200,
+      "size": 83065,
+      "title": "Gone home | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/non-existent-page-404-test",
+      "status": 404,
+      "size": 29026,
+      "title": "TeddyPups U.A.E. — Premium teacup puppies in Dubai",
+      "success": true
+    },
+    {
+      "route": "/puppies/maltipoo-max-male",
+      "status": 200,
+      "size": 93378,
+      "title": "Max (Maltipoo) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/korean-teacup-maltipoo-female",
+      "status": 200,
+      "size": 98382,
+      "title": "Korean Teacup Maltipoo (Korean Teacup Maltipoo) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/korean-teacup-poodle-female",
+      "status": 200,
+      "size": 94518,
+      "title": "Korean Teacup Poodle (Korean Teacup Poodle) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/maltipoo-cavapoo-male",
+      "status": 200,
+      "size": 94885,
+      "title": "Maltipoo \\u0026 Cavapoo (Maltipoo \\u0026 Cavapoo) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/toy-poodle-male-female",
+      "status": 200,
+      "size": 92424,
+      "title": "Toy Poodle (Toy Poodle) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/maltipoo-female-2",
+      "status": 200,
+      "size": 99761,
+      "title": "Maltipoo (Maltipoo) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/pomeranian-female",
+      "status": 200,
+      "size": 92259,
+      "title": "Pomeranian (Pomeranian) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/copper-male",
+      "status": 200,
+      "size": 93122,
+      "title": "Copper (Cavapoo) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/shitzu-female",
+      "status": 200,
+      "size": 91314,
+      "title": "Shih Tzu (Shih Tzu) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/shitzu-male",
+      "status": 200,
+      "size": 91232,
+      "title": "Shih Tzu (Shih Tzu) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/maltipoo-female-1",
+      "status": 200,
+      "size": 93312,
+      "title": "Maltipoo (Maltipoo) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/maltipoo-female",
+      "status": 200,
+      "size": 93300,
+      "title": "Maltipoo (Maltipoo) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/korean-teacup-pomeranian-1",
+      "status": 200,
+      "size": 92070,
+      "title": "Korean Teacup Pomeranian (Korean Teacup Pomeranian) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/korean-teacup-pomeranian",
+      "status": 200,
+      "size": 92164,
+      "title": "Korean Teacup Pomeranian (Korean Teacup Pomeranian) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/korean-teacup-pomeranian-male",
+      "status": 200,
+      "size": 94081,
+      "title": "Korean Teacup Pomeranian (Korean Teacup Pomeranian) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/pomeranian-ace-boy",
+      "status": 200,
+      "size": 93006,
+      "title": "Ace (Pomeranian) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/poodle-leo-male",
+      "status": 200,
+      "size": 92946,
+      "title": "Leo (Poodle) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/maltipoo-mia-girl",
+      "status": 200,
+      "size": 93020,
+      "title": "Mia (Maltipoo) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/maltipoo-sadie-girl",
+      "status": 200,
+      "size": 93085,
+      "title": "Sadie (Maltipoo) | TeddyPups U.A.E.",
+      "success": true
+    },
+    {
+      "route": "/puppies/blue-marle-pomeranian",
+      "status": 200,
+      "size": 88690,
+      "title": "Pomeranian (Pomeranian) | TeddyPups U.A.E.",
+      "success": true
+    }
+  ],
+  "successCount": 28,
+  "failureCount": 0
+}

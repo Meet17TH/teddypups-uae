@@ -1,20 +1,37 @@
 'use client';
 
-import React, { useState, useMemo, Suspense } from 'react';
+import React, { useState, useMemo, useEffect, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import PuppyCard from '@/components/PuppyCard';
 import FilterBar from '@/components/FilterBar';
 import { AVAILABLE_PUPPIES } from '@/data/puppies';
 import { Sparkles, Frown } from 'lucide-react';
 
-function PuppiesCatalogueContent() {
+function SearchParamsSync({
+  onParamsChange,
+}: {
+  onParamsChange: (origin: string, breed: string) => void;
+}) {
   const searchParams = useSearchParams();
-  const initialOrigin = searchParams.get('origin') || 'all';
-  const initialBreed = searchParams.get('breed') || 'all';
 
-  const [origin, setOrigin] = useState(initialOrigin);
-  const [breed, setBreed] = useState(initialBreed);
+  useEffect(() => {
+    const originParam = searchParams.get('origin');
+    const breedParam = searchParams.get('breed');
+    onParamsChange(originParam || 'all', breedParam || 'all');
+  }, [searchParams, onParamsChange]);
+
+  return null;
+}
+
+export default function PuppiesPage() {
+  const [origin, setOrigin] = useState('all');
+  const [breed, setBreed] = useState('all');
   const [search, setSearch] = useState('');
+
+  const handleParamsChange = React.useCallback((newOrigin: string, newBreed: string) => {
+    setOrigin(newOrigin);
+    setBreed(newBreed);
+  }, []);
 
   // Filter puppies reactively
   const filteredPuppies = useMemo(() => {
@@ -47,6 +64,11 @@ function PuppiesCatalogueContent() {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16 space-y-10">
+      {/* SearchParams listener inside Suspense */}
+      <Suspense fallback={null}>
+        <SearchParamsSync onParamsChange={handleParamsChange} />
+      </Suspense>
+
       {/* Page Title & Header */}
       <div className="text-center max-w-2xl mx-auto space-y-3">
         <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-honey-soft/70 text-toffee font-bold text-xs uppercase tracking-widest">
@@ -103,13 +125,5 @@ function PuppiesCatalogueContent() {
         </div>
       )}
     </div>
-  );
-}
-
-export default function PuppiesPage() {
-  return (
-    <Suspense fallback={<div className="p-20 text-center font-display">Loading puppies...</div>}>
-      <PuppiesCatalogueContent />
-    </Suspense>
   );
 }
