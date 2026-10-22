@@ -1,0 +1,49 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# crawl scripts / temporary scratch
+crawled_pages/
+reference_home.html
+reference_style_*.css
+rsc_chunks.txt
+puppies_rsc_full.txt
+max_rsc.txt
+sample_rsc_slice.txt
+extracted_links.json
+extracted_puppies_list.json
+media_list.json
+page_text_extracted.json
+logo_test.png

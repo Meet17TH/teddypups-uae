@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-milk: #fffdf8;
+    --color-cocoa: #2a170e;
+    --color-cocoa-soft: #5a3a28;
+    --color-toffee: #c2622b;
+    --color-toffee-deep: #a24a1a;
+    --color-honey: #f2be6b;
+    --color-honey-soft: #fbe3b4;
+    --color-sky: #bfddf5;
+    --color-sky-deep: #2f6e9e;
+    --color-blush: #f9cdbf;
+  }
+
+  body {
+    background-color: var(--color-milk);
+    color: var(--color-cocoa);
+    font-family: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-fraunces), Georgia, serif;
+  }
+}
+
+/* Custom button and utility classes */
+.tp-chapter {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #a24a1a;
+}
+
+.tp-chapter__n {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  background-color: #fbe3b4;
+  color: #2a170e;
+  font-size: 0.75rem;
+}
+
+/* Custom scrollbar hiding */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle focus indicators */
+*:focus-visible {
+  outline: 2px solid #c2622b;
+  outline-offset: 2px;
+}
